@@ -19,6 +19,7 @@
 }
 .red {
     background-color: red;
+    order: -3;
 }
 .yellow {
     background-color: yellow;
@@ -34,5 +35,5 @@
     order: -2;
 }
 .green {
-    background-color: green;
+    background-color: limegreen;
 }
