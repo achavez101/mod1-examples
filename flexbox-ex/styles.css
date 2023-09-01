@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: center;
 }
-.red, .yellow, .blue, .aqua, .green {
+.red, .yellow, .blue, .aqua, .limegreen {
     height: 200px;
     width: 200px;
     display: flex;
@@ -19,7 +19,6 @@
 }
 .red {
     background-color: red;
-    order: -3;
 }
 .yellow {
     background-color: yellow;
@@ -28,12 +27,14 @@
 .blue {
     background-color: blue;
     align-self: flex-end;
+    order: -1;
 }
 .aqua {
     background-color: aqua;
     align-self: flex-start;
     order: -2;
 }
-.green {
+.limegreen {
     background-color: limegreen;
+    order: -4;
 }
