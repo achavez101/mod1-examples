@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.aqua, .lightpink, .lightcoral {
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.aqua {
+    background-color: aqua;
+}
+.lightpink {
+    background-color: lightpink;
+    display: flex;
+}
+.lightcoral {
+    background-color: lightcoral;
+}
