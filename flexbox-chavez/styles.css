@@ -1,0 +1,28 @@
+.container {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid lightcoral;
+}
+.object-one, .object-two, .object-three {
+    width: 200px;
+    height: 200px;
+    flex-direction: row;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.object-one {
+    background-color: red;
+    align-self: flex-start;
+}
+.object-two {
+    background-color: yellowgreen;
+    order: 2;
+}
+.object-three {
+    background-color: lightblue;
+    align-self: flex-end;
+}

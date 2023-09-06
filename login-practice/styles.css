@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aqua {
+    height: 200px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    border-color: blue;
+    border-style: dotted;
+    border-width: 5px;
+}
+.aqua {
+    background-color: aqua;
+}
