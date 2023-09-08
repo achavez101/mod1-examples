@@ -1,20 +1,40 @@
 .container {
     display: flex;
-    flex-direction: column;
+    border: 5px solid blue;
+    height: 100vw;
+    width: 100vh;
     justify-content: center;
-    align-items: center;
+
+    /* background image code */
+    background-image:url("img/sky.JPG");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
-.aqua {
-    height: 200px;
-    width: 400px;
+.pink {
     display: flex;
-    flex-direction: row;
+    height: 25vh;
+    width: 50vw;
+    width: 50%;
+    height: 25%;
+    align-self: center;
     justify-content: center;
-    align-items: flex-start;
-    border-color: blue;
-    border-style: dotted;
-    border-width: 5px;
+    border: 10px groove gray;
+    box-shadow: 15px 15px #f3a9d9;
 }
-.aqua {
-    background-color: aqua;
+.pink {
+    background-color: pink;
+}
+h1 {
+    /* display: flex;
+    align-self: flex-start; */
+    font-size: 50px;
+    color: #7377ea;
+    font-weight: bold;
+    text-align: center;
+    align-self: flex-start;
+}
+h2 {
+    /* display: flex;
+    align-self: center; */
+    text-align: center;
 }

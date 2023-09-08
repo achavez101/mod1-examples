@@ -1,0 +1,15 @@
+.parent {
+    display: flex;
+    flex-basis: 100vw;
+    justify-content: center;
+    flex-basis: 100vw;
+}
+.child {
+    height: 200px;
+    width: 200px;
+    flex-grow: 3;
+    background-color: yellow;
+    align-self: center;
+    border: 5px solid lightcoral;
+}
+    
